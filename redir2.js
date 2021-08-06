@@ -5,7 +5,7 @@ var id = document.URL.split("/")[4];
 if (md == 'deep') {
   var redir = 'http://s.click.aliexpress.com/deep_link.htm?aff_short_key=_97vemK&dl_target_url=https://www.aliexpress.com/item/'+id;
 } else {
-  var redir = 'index.html';
+  var redir = '//';
 }
 
 window.location = redir;
